@@ -8,7 +8,7 @@ class User extends Equatable {
   final String profileImage;
   final int point;
   final String rank;
-  User({
+  const User({
     required this.id,
     required this.name,
     required this.email,
@@ -31,7 +31,7 @@ class User extends Equatable {
   }
 
   factory User.initialUser() {
-    return User(
+    return const User(
       id: '',
       name: '',
       email: '',

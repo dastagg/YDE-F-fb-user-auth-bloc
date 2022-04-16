@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "521026090861",
+    "project_id": "yde-fb-auth-bloc",
+    "storage_bucket": "yde-fb-auth-bloc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521026090861:android:fe2e7b00dc20cb59fe4c64",
+        "android_client_info": {
+          "package_name": "com.dastagg.fb_auth_bloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521026090861-4fchfga2dfjlbmhjbn6uu6csivd635ud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZgQMvLdy0ZVPjx11uBOIL6dgVhFTop-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521026090861-4fchfga2dfjlbmhjbn6uu6csivd635ud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

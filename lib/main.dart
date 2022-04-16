@@ -21,10 +21,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Firebase Auth',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SplashPage(),
+      home: const HomePage(),
       routes: {
         SignupPage.routeName: (context) => const SignupPage(),
         SigninPage.routeName: (context) => const SigninPage(),

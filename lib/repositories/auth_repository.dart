@@ -1,7 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:fb_auth_bloc/constants/db_constants.dart';
-import 'package:fb_auth_bloc/models/custom_error.dart';
 import 'package:firebase_auth/firebase_auth.dart' as fbAuth;
+
+import '../constants/db_constants.dart';
+import '../models/custom_error.dart';
 
 class AuthRepository {
   final FirebaseFirestore firebaseFirestore;
